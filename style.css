@@ -64,7 +64,7 @@ a {
         font-family: verdana;
         font-size: 20px;
         text-transform: lowercase; /* Makes all text lowercase */
-        text-shadow: 2px 2px 5px rgb(23, 119, 28); /* Blurred shadow effect */
+        text-shadow: 2px 2px 5px rgb(2, 85, 6); /* Blurred shadow effect */
         /* You can specify margins in four lines instead of one:
         margin-top: 100px;
         margin-bottom: 100px;
@@ -77,7 +77,7 @@ a {
 #ex3 {
     text-align: right; /* Text position on the right */
     border-style: double; /* Double line */
-    border-color: hsl(270, 99%, 53%); /* Yellow */
+    border-color: hsl(270, 19%, 37%); /* Yellow */
     text-transform: capitalize;
     font-family: "Tahoma", "Verdana", sans-serif;
     font-style: oblique;
@@ -86,7 +86,7 @@ a {
 }
 
 .ex4 {
-    border: 3px blue;
+    border: 3px rgb(116, 116, 116);
     border-style: groove; /* 3D grooved */
     border-radius: 10px;  /* Rounded border */
 }
