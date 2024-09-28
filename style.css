@@ -1,11 +1,11 @@
 body {
     background-color: rgb(201, 210, 155);   /* Background color
-    background-image: url("paper.gif");     Background image
-    background-repeat: repeat-x;            The background image repeats only horizontally 
-    background-repeat: no-repeat;           The background image does not repeat 
-    background-position: right top;         Position of the image in the upper right corner 
-    background-attachment: fixed;           Fixed background position, does not scroll 
-    background-attachment: scroll;          The background image scrolls with the page */
+    /* background-image: url("paper.gif"); /* Background image
+    background-repeat: repeat-x; /* The background image repeats only horizontally 
+    background-repeat: no-repeat; /* The background image does not repeat 
+    background-position: right top; /* Position of the image in the upper right corner 
+    background-attachment: fixed; /* Fixed background position, does not scroll 
+    background-attachment: scroll; /* The background image scrolls with the page */
 }
 
 /* Shorthand property, the same as:
@@ -62,7 +62,7 @@ a {
         border-color: #940b0b; /* Red color */
         margin: 25px 50px 75px 100px; /* Margin from the border to surrounding elements */
         font-family: verdana;
-        font-size: 20px;
+        font-size: 25px;
         text-transform: lowercase; /* Makes all text lowercase */
         text-shadow: 2px 2px 5px rgb(2, 85, 6); /* Blurred shadow effect */
         /* You can specify margins in four lines instead of one:
@@ -86,27 +86,27 @@ a {
 }
 
 .ex4 {
-    border: 3px rgb(116, 116, 116);
+    border: 7px rgb(116, 116, 116);
     border-style: groove; /* 3D grooved */
-    border-radius: 10px;  /* Rounded border */
+    border-radius: 20px;  /* Rounded border */
 }
 
 .ex5 {
-    border: 7px rgb(7, 128, 133);
+    border: 10px rgb(7, 128, 133);
     border-style: ridge; /* 3D ridged */
-    width: 300px;
+    width: 250px;
     color: white;
     text-shadow: 2px 2px 4px #000000;  /* Shadow effect on a white background */
 }
 
 .ex6 {
-    border: 7px rgb(145, 197, 145);
+    border: 8px rgb(145, 197, 145);
     border-style: inset; /* 3D inset */
     text-shadow: 0 0 3px #820a0a;
 }
 
 .ex7 {
-    border: 7px green;
+    border: 9px green;
     border-style: outset;
 }
 
@@ -155,14 +155,14 @@ a {
 }
 
 .ex14 {
-    border: 1px solid black;
+    border: 2px solid black;
     outline-style: groove; /* 3D grooved */
     outline-color: rgb(99, 203, 255);
     outline-width: thick;
 }
 
 .ex15 {
-    border: 1px solid black;
+    border: 3px solid black;
     outline-style: ridge; /* 3D ridged */
     outline-color: brown;
     outline-width: thick;
